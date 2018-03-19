@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="layout_margin_sixteen">16dp</dimen>
+    <dimen name="layout_margin_eight">8dp</dimen>
+    <dimen name="layout_width_edtPrice" tools:keep="@dimen/layout_width_edtPrice">300dp</dimen>
+    <dimen name="layout_width_edtQuantity">50dp</dimen>
+    <dimen name="layout_imageView_sale">50dp</dimen>
+    <dimen name="layout_button_quantity">40dp</dimen>
+    <dimen name="tv_text_size">24sp</dimen>
+    <dimen name="tv_text_empty_list_size">18sp</dimen>
+</resources>

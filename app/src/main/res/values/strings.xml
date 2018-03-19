@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Inventory</string>
+
+    <string name="action_delete_all_products">Delete all products</string>
+    <string name="action_catalog" tools:keep="@string/action_catalog">Catalog</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_call">Call</string>
+    <string name="action_send_email">Send email</string>
+    <string name="intent_email_setType">message/rfc822</string>
+    <string name="intent_email_setData">mailto:</string>
+    <string name="action_save_product" tools:keep="@string/action_save_product">Save product</string>
+    <string name="empty_list_title">Empty catalog</string>
+    <string name="empty_list_description">Get started by insert product</string>
+    <string name="sale_msg">No inventory</string>
+
+    <string name="title_activity_add">Insert product</string>
+    <string name="title_activity_edit">Edit product</string>
+    <string name="tvProduct_label">Product:</string>
+    <string name="tvPrice_label">Price:</string>
+    <string name="tvQuantity_label">Quantity:</string>
+    <string name="edtProduct_hint">Name</string>
+    <string name="edtPrice_hint">Price</string>
+    <string name="edtQuantity_hint">Quantity</string>
+    <string name="edtSupplier_hint">Name</string>
+    <string name="edtPhone_hint">Phone</string>
+    <string name="edtEmail_hint">Email</string>
+
+    <string name="tvProduct_info">Product Info</string>
+    <string name="tvSupplier_info">Supplier Info</string>
+    <string name="tvPrice">€</string>
+    <string name="product_save_msg">Product saved</string>
+    <string name="product_save_error_msg">Error with saving product</string>
+    <string name="empty_field_msg">Insert all fields</string>
+    <string name="update_failed">Update failed</string>
+    <string name="update_success">Update successful</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="editor_delete_product_successful">Product deleted</string>
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

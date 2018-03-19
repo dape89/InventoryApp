@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="StyleEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_sixteen</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_sixteen</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_eight</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <style name="StyleTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_sixteen</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_sixteen</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">@dimen/tv_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StyleTextViewEmptyList">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">@dimen/tv_text_empty_list_size</item>
+    </style>
+
+    <style name="StyleTextViewLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_eight</item>
+        <item name="android:layout_toRightOf">@id/imvSale</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <style name="StyleTextViewData">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_eight</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <style name="StyleButtonQuantity">
+        <item name="android:layout_width">@dimen/layout_button_quantity</item>
+        <item name="android:layout_height">@dimen/layout_button_quantity</item>
+        <item name="android:layout_below">@id/edtProduct</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_eight</item>
+        <item name="android:background">@drawable/button_rounded</item>
+        <item name="android:textColor">@color/colorImage</item>
+        <item name="android:textSize">@dimen/tv_text_empty_list_size</item>
+    </style>
+
+    <style name="StyleImageViewSale">
+        <item name="android:layout_width">@dimen/layout_imageView_sale</item>
+        <item name="android:layout_height">@dimen/layout_imageView_sale</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_sixteen</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_eight</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_sixteen</item>
+        <item name="android:background">@mipmap/ic_launcher_round</item>
+    </style>
+</resources>

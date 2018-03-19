@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorImage"
+    tools:context="com.dape.inventoryapp.EditorActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvProductInfo"
+            style="@style/StyleTextView"
+            android:text="@string/tvProduct_info" />
+
+        <EditText
+            android:id="@+id/edtProduct"
+            style="@style/StyleEditText"
+            android:layout_below="@+id/tvProductInfo"
+            android:hint="@string/edtProduct_hint"
+            android:inputType="textCapWords|textPersonName" />
+
+        <EditText
+            android:id="@+id/edtPrice"
+            android:layout_width="@dimen/layout_width_edtQuantity"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtProduct"
+            android:layout_marginLeft="@dimen/layout_margin_sixteen"
+            android:fontFamily="casual"
+            android:hint="@string/edtPrice_hint"
+            android:inputType="number"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtProduct"
+            android:layout_marginLeft="@dimen/layout_margin_sixteen"
+            android:layout_marginRight="@dimen/layout_margin_sixteen"
+            android:layout_marginTop="@dimen/layout_margin_eight"
+            android:layout_toRightOf="@id/edtPrice"
+            android:fontFamily="casual"
+            android:text="@string/tvPrice"
+            android:textSize="@dimen/tv_text_size"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnDecrement"
+            style="@style/StyleButtonQuantity"
+            android:layout_toRightOf="@+id/tvPrice"
+            android:text="-"
+            tools:ignore="RtlHardcoded" />
+
+        <EditText
+            android:id="@+id/edtQuantity"
+            style="@style/StyleEditText"
+            android:layout_width="@dimen/layout_width_edtQuantity"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtProduct"
+            android:layout_toRightOf="@+id/btnDecrement"
+            android:hint="@string/edtQuantity_hint"
+            android:inputType="number"
+            android:text="0"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnIncrement"
+            style="@style/StyleButtonQuantity"
+            android:layout_toRightOf="@id/edtQuantity"
+            android:text="+"
+            tools:ignore="RtlHardcoded" />
+
+
+        <TextView
+            android:id="@+id/tvSupplierInfo"
+            style="@style/StyleTextView"
+            android:layout_below="@id/edtPrice"
+            android:text="@string/tvSupplier_info" />
+
+        <EditText
+            android:id="@+id/edtSupplier"
+            style="@style/StyleEditText"
+            android:layout_below="@+id/tvSupplierInfo"
+            android:hint="@string/edtSupplier_hint"
+            android:inputType="textCapWords|textPersonName" />
+
+        <EditText
+            android:id="@+id/edtPhone"
+            style="@style/StyleEditText"
+            android:layout_below="@+id/edtSupplier"
+            android:hint="@string/edtPhone_hint"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            style="@style/StyleEditText"
+            android:layout_below="@+id/edtPhone"
+            android:hint="@string/edtEmail_hint"
+            android:inputType="textEmailAddress" />
+
+    </RelativeLayout>
+
+</ScrollView>

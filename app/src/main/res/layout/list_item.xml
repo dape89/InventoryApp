@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imvSale"
+        style="@style/StyleImageViewSale"
+        android:contentDescription="TODO"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvProductLabel"
+        style="@style/StyleTextViewLabel"
+        android:layout_marginTop="@dimen/layout_margin_sixteen"
+        android:text="@string/tvProduct_label" />
+
+    <TextView
+        android:id="@+id/tvProduct"
+        style="@style/StyleTextViewData"
+        android:layout_marginTop="@dimen/layout_margin_sixteen"
+        android:layout_toRightOf="@+id/tvProductLabel"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvPriceLabel"
+        style="@style/StyleTextViewLabel"
+        android:layout_below="@+id/tvProductLabel"
+        android:text="@string/tvPrice_label" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        style="@style/StyleTextViewData"
+        android:layout_below="@id/tvProductLabel"
+        android:layout_toRightOf="@+id/tvPriceLabel"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvQuantityLabel"
+        style="@style/StyleTextViewLabel"
+        android:layout_below="@+id/tvPriceLabel"
+        android:layout_marginBottom="@dimen/layout_margin_eight"
+        android:text="@string/tvQuantity_label" />
+
+    <TextView
+        android:id="@+id/tvQuantity"
+        style="@style/StyleTextViewData"
+        android:layout_below="@+id/tvPrice"
+        android:layout_marginBottom="@dimen/layout_margin_eight"
+        android:layout_toRightOf="@+id/tvQuantityLabel"
+        tools:ignore="RtlHardcoded" />
+</RelativeLayout>
